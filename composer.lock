@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "105dd69abc072793ce9f294ec830ee7e",
+    "content-hash": "efd691693b852dc9192e34ca76bc8d9e",
     "packages": [
         {
             "name": "aura/cli",
@@ -166,16 +166,16 @@
         },
         {
             "name": "bear/package",
-            "version": "1.15.2",
+            "version": "dev-check-cache",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Package.git",
-                "reference": "2e6d717a041c6a4355c6a0f31f82fd60f42bd511"
+                "reference": "5bf9608b19729b7356d51de88ba700250accae88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/2e6d717a041c6a4355c6a0f31f82fd60f42bd511",
-                "reference": "2e6d717a041c6a4355c6a0f31f82fd60f42bd511",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Package/zipball/5bf9608b19729b7356d51de88ba700250accae88",
+                "reference": "5bf9608b19729b7356d51de88ba700250accae88",
                 "shasum": ""
             },
             "require": {
@@ -245,9 +245,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bearsunday/BEAR.Package/issues",
-                "source": "https://github.com/bearsunday/BEAR.Package/tree/1.15.2"
+                "source": "https://github.com/bearsunday/BEAR.Package/tree/check-cache"
             },
-            "time": "2023-01-13T11:01:28+00:00"
+            "time": "2023-04-19T03:11:40+00:00"
         },
         {
             "name": "bear/query-repository",
@@ -6380,9 +6380,17 @@
             "time": "2021-07-28T10:34:58+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "bear/package",
+            "version": "dev-check-cache",
+            "alias": "1.15",
+            "alias_normalized": "1.15.0.0"
+        }
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "bear/package": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
